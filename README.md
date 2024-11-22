@@ -6,6 +6,7 @@ This project demonstrates the creation and management of a MongoDB database name
 The database includes three collections: Facilitators, Trainees, and Projects, each containing sample data relevant to an educational or training environment.
 ## Run Locally
 
+
 Clone the project
 bash
   git clone https://github.com/Amniei/Shopping-List.git
