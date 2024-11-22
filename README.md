@@ -5,7 +5,11 @@ This project demonstrates the creation and management of a MongoDB database name
 
 The database includes three collections: Facilitators, Trainees, and Projects, each containing sample data relevant to an educational or training environment.
 
+<h5>Prerequisites</h5>
 
+MongoDB installed on your system.
+
+MongoDB shell (mongosh) set up and accessible in your terminal.
 
 ## Run Locally
 
