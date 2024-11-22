@@ -5,19 +5,13 @@ This project demonstrates the creation and management of a MongoDB database name
 
 The database includes three collections: Facilitators, Trainees, and Projects, each containing sample data relevant to an educational or training environment.
 
-Action	                                 Command
-Start MongoDB                                   shell	mongosh
-Switch to a database	                           use Codetribe
-Insert a document	                               db.CollectionName.insertOne({...})
-View all documents	                                 db.CollectionName.find().pretty()
-List databases	                                    show dbs
-List collections	show collections
+
 
 ## Run Locally
 
 Clone the project
 ```bash
-  git clone https://github.com/Amniei/Shopping-List.git
+  https://github.com/SANEH2015/MongoDB.git
 ```
 start MongDB
 
@@ -30,4 +24,16 @@ Switch to a Database
 Insert a document
 ```
   db.CollectionName.insertOne({...})
+```
+Veiw all document
+```
+  db.CollectionName.find().pretty()
+```
+List databases
+```
+  show dbs
+```
+List collections 
+```
+  show collection
 ```
