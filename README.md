@@ -5,22 +5,29 @@ This project demonstrates the creation and management of a MongoDB database name
 
 The database includes three collections: Facilitators, Trainees, and Projects, each containing sample data relevant to an educational or training environment.
 
+Action	                                 Command
+Start MongoDB                                   shell	mongosh
+Switch to a database	                           use Codetribe
+Insert a document	                               db.CollectionName.insertOne({...})
+View all documents	                                 db.CollectionName.find().pretty()
+List databases	                                    show dbs
+List collections	show collections
+
 ## Run Locally
+
 Clone the project
 ```bash
   git clone https://github.com/Amniei/Shopping-List.git
 ```
-Go to the project directory
-```bash
-  cd Shopping-List
+start MongDB
+
+  mongosh
 ```
-Install dependencies
-```bash
-  npm install
+Switch to a Database
+
+  use Codetribe
 ```
-Start the react server
-```bash
-  npm run start
+Insert a document
 ```
-## Tech Stack
-**Client:** React JS, HTML5, JavaScript, CSS3
+  db.CollectionName.insertOne({...})
+```
