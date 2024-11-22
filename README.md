@@ -1,11 +1,3 @@
-<img src="https://socialify.git.ci/SANEH2015/MongoDB/image?language=1&owner=1&name=1&stargazers=1&theme=Light" alt="MongoDB" width="640" height="320" />
-<h1># MongoDB</h1>
-
-This project demonstrates the creation and management of a MongoDB database named Codetribe. It is designed to help trainees understand key MongoDB concepts, such as databases, collections, and documents, while working with JSON-like data.
-
-The database includes three collections: Facilitators, Trainees, and Projects, each containing sample data relevant to an educational or training environment.
-
-Here’s the updated README.md file tailored to the MongoDB task you provided earlier:
 
 <img src="https://socialify.git.ci/SANEH2015/MongoDB/image?language=1&owner=1&name=1&stargazers=1&theme=Light" alt="MongoDB" width="640" height="320" />
 MongoDB: Codetribe Database Project
@@ -14,13 +6,16 @@ This project demonstrates the creation, management, and export of a MongoDB data
 The Codetribe database includes three collections: Facilitators, Trainees, and Projects, each containing sample data relevant to an educational or training environment.
 
 Run Locally
+
 Follow these steps to replicate the project on your local machine:
 
 1. Clone the Project
+2. 
 Clone this repository:
 
 bash
 Copy code
+
 git clone https://github.com/Amniei/MongoDB.git
 2. Navigate to the Project Directory
 Move to the project's directory:
@@ -29,6 +24,7 @@ bash
 Copy code
 cd MongoDB
 3. Restore the Database
+
 Use the following command to restore the database from the exported BSON files:
 
 bash
@@ -37,6 +33,7 @@ mongorestore --db=Codetribe ./Codetribe
 This will import the Facilitators, Trainees, and Projects collections into your MongoDB instance.
 
 4. Start the MongoDB Shell
+5. 
 Open the MongoDB shell to interact with the database:
 
 bash
